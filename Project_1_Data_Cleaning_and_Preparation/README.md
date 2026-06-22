@@ -1,14 +1,14 @@
-# 📊 DecodeLabs Data Analytics Internship — Project 1
+#  DecodeLabs Data Analytics Internship — Project 1
 ## Data Cleaning and Preparation
 
 ---
 
-### 🎯 Objective
+###  Objective
 Perform comprehensive data cleaning and preparation on a real-world e-commerce orders dataset to ensure data quality, consistency, and readiness for downstream analysis. This project demonstrates essential data wrangling skills including handling missing values, removing duplicates, correcting data formats, and validating data integrity.
 
 ---
 
-### 📁 Dataset Description
+### Dataset Description
 
 | Property | Details |
 |----------|--------|
@@ -38,7 +38,7 @@ Perform comprehensive data cleaning and preparation on a real-world e-commerce o
 
 ---
 
-### 📋 Steps Performed
+###  Steps Performed
 
 1. **Import Libraries** — Loaded Pandas, NumPy, and configured the environment.
 2. **Load Dataset** — Read the Excel file into a Pandas DataFrame.
@@ -53,10 +53,10 @@ Perform comprehensive data cleaning and preparation on a real-world e-commerce o
    - Standardized text capitalization to Title Case.
    - Verified numerical columns have correct `int64`/`float64` data types.
 9. **Final Verification** — Confirmed:
-   - ✅ Zero missing values
-   - ✅ Zero duplicate rows
-   - ✅ Dates in YYYY-MM-DD format
-   - ✅ Correct data types
+   - Zero missing values
+   - Zero duplicate rows
+   -  Dates in YYYY-MM-DD format
+   -  Correct data types
 10. **Export** — Saved the cleaned dataset as `cleaned_dataset.csv`.
 
 ---
@@ -103,7 +103,7 @@ Perform comprehensive data cleaning and preparation on a real-world e-commerce o
 
 ---
 
-### 🎯 Conclusion
+###  Conclusion
 
 This project successfully demonstrates a professional, end-to-end data cleaning pipeline on a real-world e-commerce dataset. All 309 missing values were handled using statistically appropriate techniques (Mode for categorical data), data formats were standardized, and comprehensive validation confirmed the dataset is clean and analysis-ready.
 
@@ -111,7 +111,7 @@ The cleaned dataset (`cleaned_dataset.csv`) is ready for downstream analysis tas
 
 ---
 
-### 📂 Project Files
+###  Project Files
 
 | File | Description |
 |------|-------------|
